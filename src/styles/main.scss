@@ -1,0 +1,8 @@
+@import './variables';
+
+// HeroSection.tsx
+.button-started{
+  border-radius: 15rem;
+  border: none;
+  background: linear-gradient(to left, $blue, $cyan);
+}
