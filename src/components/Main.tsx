@@ -1,4 +1,10 @@
+import HeroSection from './sections/HeroSection'
+
 const Main = () => {
-  return <div>Main</div>
+  return (
+    <main className='px-6 py-6 w-full'>
+      <HeroSection />
+    </main>
+  )
 }
 export default Main
