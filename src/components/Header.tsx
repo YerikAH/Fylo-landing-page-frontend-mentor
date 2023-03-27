@@ -3,8 +3,8 @@ import logo from '../assets/logo.svg'
 const Header = () => {
   return (
     <header>
-      <nav>
-        <ul>
+      <nav className='px-4 py-4'>
+        <ul className='flex justify-between items-center'>
           <div className='logo_nav'>
             <li>
               <a href='#' tabIndex={1}>
@@ -12,7 +12,7 @@ const Header = () => {
               </a>
             </li>
           </div>
-          <div className='options_nav'>
+          <div className='flex gap-4'>
             <li>
               <a href='' tabIndex={1}>
                 Features

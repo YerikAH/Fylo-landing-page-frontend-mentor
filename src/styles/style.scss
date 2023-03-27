@@ -1,9 +1,9 @@
-// Tailwind
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
-
 @import './resets';
+@import './variables';
+// code
+html{
+  background-color: $dark-blue-intro-bg
+}
 
 // Components
 @import './header.scss'
