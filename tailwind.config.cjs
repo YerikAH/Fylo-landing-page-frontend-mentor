@@ -15,8 +15,8 @@ module.exports = {
       light_red: '#ff4242',
     },
     fontFamily: {
-      sans: ['Open Sans', 'sans-serif'],
-      serif: ['Raleway', 'sans-serif'],
+      open_sans: ['Open Sans', 'sans-serif'],
+      raleway: ['Raleway', 'sans-serif'],
     },
   },
   plugins: [],

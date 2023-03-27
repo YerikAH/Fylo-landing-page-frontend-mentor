@@ -15,7 +15,7 @@ const Header = () => {
           <div className='flex gap-6'>
             {NAV_OPTIONS.map((item, idx) => (
               <li key={idx}>
-                <a href='' tabIndex={1} className='text-white text-xs font-serif'>
+                <a href='' tabIndex={1} className='text-white text-xs font-raleway'>
                   {item}
                 </a>
               </li>
