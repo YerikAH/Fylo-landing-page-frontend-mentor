@@ -1,5 +1,5 @@
 import logo from '../assets/logo.svg'
-
+const NAV_OPTIONS = ['Features', 'Team', 'Sign in']
 const Header = () => {
   return (
     <header>
@@ -13,21 +13,13 @@ const Header = () => {
             </li>
           </div>
           <div className='flex gap-4'>
-            <li>
-              <a href='' tabIndex={1}>
-                Features
-              </a>
-            </li>
-            <li>
-              <a href='' tabIndex={1}>
-                Team
-              </a>
-            </li>
-            <li>
-              <a href='' tabIndex={1}>
-                Sign in
-              </a>
-            </li>
+            {NAV_OPTIONS.map((item, idx) => (
+              <li key={idx}>
+                <a href='' tabIndex={1} className='text-slate'>
+                  {item}
+                </a>
+              </li>
+            ))}
           </div>
         </ul>
       </nav>
