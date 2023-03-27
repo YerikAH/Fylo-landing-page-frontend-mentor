@@ -1,0 +1,23 @@
+@import './variables';
+
+header{ 
+  width: 100%;
+  nav{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+    padding: 4rem 3rem 2rem 3rem;
+  }
+}
+nav > ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.options_nav{
+  display: flex;
+  gap: 2rem;
+}
+.options_nav a{
+  color: $white;
+}
