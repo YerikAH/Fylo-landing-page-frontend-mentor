@@ -1,5 +1,6 @@
 import logo from '../assets/logo.svg'
-const NAV_OPTIONS = ['Features', 'Team', 'Sign in']
+import { NAV_OPTIONS } from '../constant/constant'
+
 const Header = () => {
   return (
     <header className='w-full'>
