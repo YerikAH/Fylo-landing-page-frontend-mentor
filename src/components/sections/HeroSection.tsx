@@ -14,6 +14,7 @@ const HeroSection = () => {
       <button
         tabIndex={1}
         className='mt-8 text-white text-sm py-4 px-20  text-center  font-bold  font-raleway button-started'
+        aria-label='Start using Fylo'
       >
         Get Started
       </button>
