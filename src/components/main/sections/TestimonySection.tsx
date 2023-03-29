@@ -5,12 +5,12 @@ export const TestimonySection = () => {
     <section className='grid place-items-center w-full mt-44'>
       {TESTIMONY_BOX.map((item) => (
         <div className='grid-item-testi' key={item.id}>
-          <p>{item.testimony}</p>
+          <p className='text-white text-sm  font-open_sans text-left mt-2'>{item.testimony}</p>
           <div className='grid-item-user'>
-            <img src={item.image} alt='profile' />
+            <img src={item.image} alt='profile' className='w-8 rounded-s-full' />
             <div className='grid-item-user_column'>
-              <p>{item.name}</p>
-              <span>{item.job}</span>
+              <p className='text-white text-sm  font-open_sans text-left mt-2'>{item.name}</p>
+              <span className='text-white text-sm  font-open_sans text-left mt-2'>{item.job}</span>
             </div>
           </div>
         </div>

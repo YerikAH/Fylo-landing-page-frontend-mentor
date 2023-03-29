@@ -4,6 +4,10 @@ import iconSecurity from '../assets/icon-security.svg'
 import iconCollaboration from '../assets/icon-collaboration.svg'
 import iconFile from '../assets/icon-any-file.svg'
 
+import profileOne from '../assets/profile-1.jpg'
+import profileTwo from '../assets/profile-2.jpg'
+import profileThree from '../assets/profile-3.jpg'
+
 // const
 export const NAV_OPTIONS = ['Features', 'Team', 'Sign in']
 export const FEATURES_BOX = [
@@ -39,9 +43,26 @@ export const FEATURES_BOX = [
 export const TESTIMONY_BOX = [
   {
     id: '1',
-    testimony: '',
-    name: '',
-    job: '',
-    image: '',
+    testimony:
+      'Fylo has improved our team productivity by an order of magnitud. Since making the switch our team has become a well-olled collaboration machine.',
+    name: 'Satish Patel',
+    job: 'Founder & CEO, Huddle',
+    image: profileOne,
+  },
+  {
+    id: '2',
+    testimony:
+      'Fylo has improved our team productivity by an order of magnitud. Since making the switch our team has become a well-olled collaboration machine.',
+    name: 'Bruce MacKenzie',
+    job: 'Founder & CEO, Huddle',
+    image: profileTwo,
+  },
+  {
+    id: '3',
+    testimony:
+      'Fylo has improved our team productivity by an order of magnitud. Since making the switch our team has become a well-olled collaboration machine.',
+    name: 'Iva Boyd',
+    job: 'Founder & CEO, Huddle',
+    image: profileThree,
   },
 ]
