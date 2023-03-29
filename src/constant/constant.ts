@@ -36,3 +36,12 @@ export const FEATURES_BOX = [
     description: `Whether you're sharing holidays photos or work documents, Fylo has yo covered allowing for all file types to be securely stored and shared.`,
   },
 ]
+export const TESTIMONY_BOX = [
+  {
+    id: '1',
+    testimony: '',
+    name: '',
+    job: '',
+    image: '',
+  },
+]
