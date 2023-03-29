@@ -9,7 +9,7 @@ const FeaturesSection = () => {
           <h3 className='text-white text-base font-raleway text-center font-bold mt-6'>
             {item.title}
           </h3>
-          <p className='text-white text-sm font-open_sans text-center  mt-2'>{item.description}</p>
+          <p className='text-white text-sm font-open_sans text-center mt-2'>{item.description}</p>
         </div>
       ))}
     </section>
