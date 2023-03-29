@@ -5,7 +5,7 @@ const FeaturesSection = () => {
     <section className='grid place-items-center w-full gap-24 mt-44'>
       {FEATURES_BOX.map((item) => (
         <div className='grid place-items-center' key={item.id}>
-          <img src={item.image} alt={'icon ' + item.title} />
+          <img src={item.image} alt={'icon ' + item.title} className='w-16' />
           <h3 className='text-white text-base font-raleway text-center font-bold mt-6'>
             {item.title}
           </h3>

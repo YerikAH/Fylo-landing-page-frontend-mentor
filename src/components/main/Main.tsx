@@ -1,4 +1,5 @@
 // components
+import ContactSection from './sections/ContactSection'
 import FeaturesSection from './sections/FeaturesSection'
 import HeroSection from './sections/HeroSection'
 import PromotionSection from './sections/PromotionSection'
@@ -11,6 +12,7 @@ const Main = () => {
       <FeaturesSection />
       <PromotionSection />
       <TestimonySection />
+      <ContactSection />
     </main>
   )
 }
