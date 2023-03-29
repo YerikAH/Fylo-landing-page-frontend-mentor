@@ -1,4 +1,4 @@
-import { TESTIMONY_BOX } from '../../constant/constant'
+import { TESTIMONY_BOX } from '../../../constant/constant'
 
 export const TestimonySection = () => {
   return (

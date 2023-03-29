@@ -1,4 +1,4 @@
-import HeroSection from '../components/sections/HeroSection'
+import HeroSection from '../components/main/sections/HeroSection'
 import { render, screen } from '@testing-library/react'
 describe('HeroSection', () => {
   test('HeroSection display image', () => {

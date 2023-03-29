@@ -1,6 +1,6 @@
 // images
-import illustrationProductive from '../../assets/illustration-stay-productive.png'
-import iconArrow from '../../assets/icon-arrow.svg'
+import illustrationProductive from '../../../assets/illustration-stay-productive.png'
+import iconArrow from '../../../assets/icon-arrow.svg'
 
 const PromotionSection = () => {
   return (

@@ -1,4 +1,4 @@
-import { FEATURES_BOX } from '../../constant/constant'
+import { FEATURES_BOX } from '../../../constant/constant'
 
 const FeaturesSection = () => {
   return (

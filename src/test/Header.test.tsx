@@ -1,4 +1,4 @@
-import Header from '../components/Header'
+import Header from '../components/header/Header'
 import { render, screen } from '@testing-library/react'
 describe('Header', () => {
   test('Renders all navigation options', () => {

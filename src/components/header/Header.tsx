@@ -1,5 +1,5 @@
-import logo from '../assets/logo.svg'
-import { NAV_OPTIONS } from '../constant/constant'
+import logo from '../../assets/logo.svg'
+import { NAV_OPTIONS } from '../../constant/constant'
 
 const Header = () => {
   return (
