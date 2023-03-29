@@ -66,3 +66,5 @@ export const TESTIMONY_BOX = [
     image: profileThree,
   },
 ]
+export const FOOTER_OPT_ONE = ['About Us', 'Jobs', 'Press', 'Blog']
+export const FOOTER_OPT_TWO = ['Contact Us', 'Terms', 'Privacy']
