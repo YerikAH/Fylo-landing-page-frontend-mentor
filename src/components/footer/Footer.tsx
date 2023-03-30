@@ -1,9 +1,16 @@
+// const
 import { FOOTER_OPT_ONE, FOOTER_OPT_TWO } from '../../constant/constant'
+
+// images
 import logo from '../../assets/logo.svg'
 import locate from '../../assets/icon-location.svg'
 import phone from '../../assets/icon-phone.svg'
 import email from '../../assets/icon-email.svg'
 import SocialMediaIcon from '../ui/SocialMediaIcon'
+import FacebookIcon from '../icons/FacebookIcon'
+import InstagramIcon from '../icons/InstagramIcon'
+import TwitterIcon from '../icons/TwitterIcon'
+
 export const Footer = () => {
   return (
     <footer className=' px-6 py-6 w-full grid place-items-start w-full mt-16'>
@@ -46,9 +53,15 @@ export const Footer = () => {
         ))}
       </ul>
       <div className='grid place-items-center'>
-        <SocialMediaIcon>
-          <h1>Hola mundo</h1>
-        </SocialMediaIcon>
+	<SocialMediaIcon>
+	  <FacebookIcon/>
+	</SocialMediaIcon>
+	<SocialMediaIcon>
+	  <TwitterIcon/>
+	</SocialMediaIcon>
+	<SocialMediaIcon>
+	  <InstagramIcon/>
+	</SocialMediaIcon>
       </div>
     </footer>
   )
