@@ -20,6 +20,9 @@ module.exports = {
 		extend: {
 			maxWidth: {
 				m39rem: '39rem'
+			},
+			gridTemplateColumns: {
+				auto_2 : 'repeat(2,auto)'
 			}
 		}
 	},

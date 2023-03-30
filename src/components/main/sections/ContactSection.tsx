@@ -9,18 +9,18 @@ const ContactSection = () => {
         have any questions, our support team would be happy to help you.
       </p>
       <div className='grid w-full'>
-	<input
-	  tabIndex={1}
-	  type='email'
-	  aria-label='Enter your email'
-	  aria-required='false'
+        <input
+          tabIndex={1}
+          type='email'
+          aria-label='Enter your email'
+          aria-required='false'
           placeholder='email@example.com'
           className=' rounded-full bg-white w-full px-3.5 py-3.5 mt-8 text-xs font-open_sans'
         />
-	<input
-	  tabIndex={1}
-	  type='submit'
-	  aria-label="Get Started For Free"
+        <input
+          tabIndex={1}
+          type='submit'
+          aria-label='Get Started For Free'
           value='Get Started For Free'
           className='text-white bg-cyan rounded-full text-xs w-full px-3.5 py-3.5 mt-4 font-raleway font-bold'
         />
