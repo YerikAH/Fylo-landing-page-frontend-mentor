@@ -21,7 +21,7 @@ const PromotionSection = () => {
           acollaboration. No email attachments required.
         </p>
 
-        <a className='flex gap-2 items-center mt-4'>
+        <a className='flex gap-2 items-center mt-4' tabIndex={1}>
           <span className='text-cyan text-sm font-open_sans text-left'>See how Fylo works</span>
           <img src={iconArrow} alt='arrow' />
         </a>

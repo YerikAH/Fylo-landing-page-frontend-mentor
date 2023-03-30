@@ -11,6 +11,11 @@ header{
     max-width: 5rem;
   }
 }
-.options_nav a{
-  color: $white;
+
+@media (min-width: 1080px){
+  .logo_nav{
+    img{
+      max-width: none;
+    }
+  }
 }

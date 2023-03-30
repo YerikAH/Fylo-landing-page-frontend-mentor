@@ -1,9 +1,9 @@
 import { PropsSocial } from '../../interface/interface'
 const SocialMediaIcon = ({ children }: PropsSocial) => {
   return (
-    <div className='grid rounded-full place-items-center border-white border-solid border p4'>
+    <a href="#" tabIndex={1} className='grid rounded-full place-items-center border-white border-solid border p-2'>
       {children}
-    </div>
+    </a>
   )
 }
 
