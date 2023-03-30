@@ -3,6 +3,7 @@ import logo from '../../assets/logo.svg'
 import locate from '../../assets/icon-location.svg'
 import phone from '../../assets/icon-phone.svg'
 import email from '../../assets/icon-email.svg'
+import SocialMediaIcon from '../ui/SocialMediaIcon'
 export const Footer = () => {
   return (
     <footer className=' px-6 py-6 w-full grid place-items-start w-full mt-16'>
@@ -44,7 +45,11 @@ export const Footer = () => {
           </li>
         ))}
       </ul>
-      <div></div>
+      <div className='grid place-items-center'>
+        <SocialMediaIcon>
+          <h1>Hola mundo</h1>
+        </SocialMediaIcon>
+      </div>
     </footer>
   )
 }
