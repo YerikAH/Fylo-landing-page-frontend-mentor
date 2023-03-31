@@ -7,6 +7,9 @@ import iconFile from '../assets/icon-any-file.svg'
 import profileOne from '../assets/profile-1.jpg'
 import profileTwo from '../assets/profile-2.jpg'
 import profileThree from '../assets/profile-3.jpg'
+import FacebookIcon from '../components/icons/FacebookIcon'
+import TwitterIcon from '../components/icons/TwitterIcon'
+import InstagramIcon from '../components/icons/InstagramIcon'
 
 // const
 export const NAV_OPTIONS = ['Features', 'Team', 'Sign in']
@@ -68,3 +71,8 @@ export const TESTIMONY_BOX = [
 ]
 export const FOOTER_OPT_ONE = ['About Us', 'Jobs', 'Press', 'Blog']
 export const FOOTER_OPT_TWO = ['Contact Us', 'Terms', 'Privacy']
+export const FOOTER_SOCIAL = [
+  <FacebookIcon key={1} />,
+  <TwitterIcon key={2} />,
+  <InstagramIcon key={3} />,
+]

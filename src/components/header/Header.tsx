@@ -13,10 +13,10 @@ const Header = () => {
               </a>
             </li>
           </div>
-	  <div className='flex gap-6 place-items-center lg:gap-12'>
+          <div className='flex gap-6 place-items-center lg:gap-12'>
             {NAV_OPTIONS.map((item, idx) => (
               <li key={idx} className='flex'>
-		<a href='' tabIndex={1} className='text-white text-xs font-raleway lg:text-base'>
+                <a href='' tabIndex={1} className='text-white text-xs font-raleway lg:text-base'>
                   {item}
                 </a>
               </li>

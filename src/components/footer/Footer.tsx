@@ -1,5 +1,5 @@
 // const
-import { FOOTER_OPT_ONE, FOOTER_OPT_TWO } from '../../constant/constant'
+import { FOOTER_OPT_ONE, FOOTER_OPT_TWO, FOOTER_SOCIAL } from '../../constant/constant'
 
 // images
 import logo from '../../assets/logo.svg'
@@ -25,11 +25,11 @@ export const Footer = () => {
         </div>
       </div>
       <div className='mt-4'>
-        <a href='' className='flex gap-6 items-start mt-4'  tabIndex={1}>
+        <a href='' className='flex gap-6 items-start mt-4' tabIndex={1}>
           <img src={phone} alt='phone' />
           <span className='text-white text-sm  font-open_sans'>+1-543-123-4567</span>
         </a>
-        <a href='' className='flex gap-6 items-start mt-4'  tabIndex={1}>
+        <a href='' className='flex gap-6 items-start mt-4' tabIndex={1}>
           <img src={email} alt='gmail' />
           <span className='text-white text-sm  font-open_sans'>example@fylo.com</span>
         </a>
@@ -37,7 +37,7 @@ export const Footer = () => {
       <ul className='mt-20 grid gap-4 w-full'>
         {FOOTER_OPT_ONE.map((item, idx) => (
           <li key={idx} className='w-full'>
-            <a href='' className='text-white text-base  w-full font-open_sans flex'  tabIndex={1}>
+            <a href='' className='text-white text-base  w-full font-open_sans flex' tabIndex={1}>
               {item}
             </a>
           </li>
@@ -53,15 +53,9 @@ export const Footer = () => {
         ))}
       </ul>
       <div className='flex gap-4 w-full place-items-center place-content-center mt-24 '>
-	<SocialMediaIcon>
-	  <FacebookIcon/>
-	</SocialMediaIcon>
-	<SocialMediaIcon>
-	  <TwitterIcon/>
-	</SocialMediaIcon>
-	<SocialMediaIcon>
-	  <InstagramIcon/>
-	</SocialMediaIcon>
+        {FOOTER_SOCIAL.map((item, idx) => (
+          <SocialMediaIcon key={idx}>{item}</SocialMediaIcon>
+        ))}
       </div>
     </footer>
   )
