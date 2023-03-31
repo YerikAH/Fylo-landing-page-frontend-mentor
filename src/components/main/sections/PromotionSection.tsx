@@ -12,7 +12,7 @@ const PromotionSection = () => {
         <h2 className='text-white text-lg font-raleway text-left mt-4 font-bold lg:text-4xl max-w-md lg:leading-snug'>
           Stay productive, wherever you are
         </h2>
-        <p className='text-white text-sm  font-open_sans text-left mt-2 max-w-lg lg:mt-4'>
+        <p className='text-white text-sm  font-open_sans text-left mt-2 max-w-xl lg:mt-4 lg:text-base'>
           Never let location be ans issue when accessing your files. Fylo has you convered for all
           of your file sotrage needs.
           <br />
@@ -22,7 +22,9 @@ const PromotionSection = () => {
         </p>
 
         <a className='flex gap-2 items-center mt-4 lg:mt-6' tabIndex={1}>
-          <span className='text-cyan text-sm font-open_sans text-left'>See how Fylo works</span>
+          <span className='text-cyan text-sm font-open_sans text-left lg:text-base'>
+            See how Fylo works
+          </span>
           <img src={iconArrow} alt='arrow' />
         </a>
       </div>

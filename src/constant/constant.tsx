@@ -72,7 +72,16 @@ export const TESTIMONY_BOX = [
 export const FOOTER_OPT_ONE = ['About Us', 'Jobs', 'Press', 'Blog']
 export const FOOTER_OPT_TWO = ['Contact Us', 'Terms', 'Privacy']
 export const FOOTER_SOCIAL = [
-  <FacebookIcon key={1} />,
-  <TwitterIcon key={2} />,
-  <InstagramIcon key={3} />,
+  {
+    componentElement: <FacebookIcon key={1} />,
+    url: 'https://es-la.facebook.com/',
+  },
+  {
+    componentElement: <TwitterIcon key={2} />,
+    url: 'https://twitter.com/?lang=es',
+  },
+  {
+    componentElement: <InstagramIcon key={3} />,
+    url: 'https://www.instagram.com/',
+  },
 ]

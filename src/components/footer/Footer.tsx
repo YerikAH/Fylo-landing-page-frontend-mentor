@@ -7,9 +7,6 @@ import locate from '../../assets/icon-location.svg'
 import phone from '../../assets/icon-phone.svg'
 import email from '../../assets/icon-email.svg'
 import SocialMediaIcon from '../ui/SocialMediaIcon'
-import FacebookIcon from '../icons/FacebookIcon'
-import InstagramIcon from '../icons/InstagramIcon'
-import TwitterIcon from '../icons/TwitterIcon'
 
 export const Footer = () => {
   return (
@@ -54,7 +51,9 @@ export const Footer = () => {
       </ul>
       <div className='flex gap-4 w-full place-items-center place-content-center mt-24 '>
         {FOOTER_SOCIAL.map((item, idx) => (
-          <SocialMediaIcon key={idx}>{item}</SocialMediaIcon>
+          <SocialMediaIcon key={idx} url={item.url}>
+            {item.componentElement}
+          </SocialMediaIcon>
         ))}
       </div>
     </footer>
