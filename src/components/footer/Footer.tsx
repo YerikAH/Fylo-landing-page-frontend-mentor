@@ -13,7 +13,7 @@ export const Footer = () => {
     <footer className='px-6 pb-12 pt-56  bg-blue_dark_footer_bg'>
       <div className='footer-center w-full grid lg:place-content-center'>
         <img src={logo} alt='logo' />
-        <div className=' place-items-start grid w-full lg:grid-cols-custom_5 mt-8 lg:gap-6'>
+        <div className=' place-items-start grid w-full lg:grid-cols-custom_5 mt-8 lg:gap-16'>
           <div className='grid h-full  lg:mt-0 w-full'>
             <div className='flex gap-6 items-start mt-10 lg:mt-0'>
               <img src={locate} alt='locate' className='mt-2' />
