@@ -11,5 +11,11 @@ html{
 }
 section{
   max-width: 1440px;
+}
+article, section{
+  margin: 0 auto;
+}
+.footer-center{
+  max-width: 1228px;
   margin: 0 auto;
 }

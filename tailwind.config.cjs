@@ -24,6 +24,7 @@ module.exports = {
       gridTemplateColumns: {
         auto_2: 'repeat(2,auto)',
         auto_3: 'repeat(3,auto)',
+        custom_5: '350px 200px 100px 100px 200px',
       },
     },
   },
