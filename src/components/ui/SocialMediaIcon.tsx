@@ -4,7 +4,7 @@ const SocialMediaIcon = ({ children, url }: PropsSocial) => {
     <a
       href={url}
       tabIndex={1}
-      className='grid rounded-full place-items-center border-white border-solid border p-2'
+      className='grid rounded-full place-items-center border-white border-solid border p-2 lg:mt-0 mt-24'
     >
       {children}
     </a>

@@ -23,19 +23,19 @@ export const Footer = () => {
               </p>
             </div>
           </div>
-          <div className='mt-8  h-full  lg:mt-0 w-full'>
-            <a href='' className='flex gap-6 items-start' tabIndex={1}>
+          <div className='  h-full   w-full '>
+            <a href='' className='flex gap-6 items-start pt-8 lg:pt-0' tabIndex={1}>
               <img src={phone} alt='phone' />
               <span className='text-white text-sm  font-open_sans'>+1-543-123-4567</span>
             </a>
-            <a href='' className='flex gap-6 items-start mt-4' tabIndex={1}>
+            <a href='' className='flex gap-6 items-start pt-4 pb-20 lg:pb-0' tabIndex={1}>
               <img src={email} alt='gmail' />
               <span className='text-white text-sm  font-open_sans'>example@fylo.com</span>
             </a>
           </div>
-          <ul className='mt-20 grid gap-4 w-full  h-full  lg:mt-0'>
+          <ul className='grid  w-full  h-full  '>
             {FOOTER_OPT_ONE.map((item, idx) => (
-              <li key={idx} className='w-full'>
+              <li key={idx} className='w-full py-2 lg:pt-0 lg:pb-2'>
                 <a
                   href=''
                   className='text-white text-base  w-full font-open_sans flex'
@@ -46,9 +46,9 @@ export const Footer = () => {
               </li>
             ))}
           </ul>
-          <ul className='mt-12 grid gap-4 w-full  h-full  lg:mt-0'>
+          <ul className='pt-12 grid w-full  h-full  lg:pt-0'>
             {FOOTER_OPT_TWO.map((item, idx) => (
-              <li key={idx} className='w-full'>
+              <li key={idx} className='w-full  py-2 lg:pt-0 lg:pb-2'>
                 <a
                   href=''
                   className='text-white text-base  w-full font-open_sans flex'
@@ -59,7 +59,7 @@ export const Footer = () => {
               </li>
             ))}
           </ul>
-          <div className='flex gap-4 w-full place-items-center place-content-center mt-24  h-full lg:mt-0 lg:place-items-start'>
+          <div className='flex gap-4 w-full place-items-center place-content-center   h-full lg:place-items-start'>
             {FOOTER_SOCIAL.map((item, idx) => (
               <SocialMediaIcon key={idx} url={item.url}>
                 {item.componentElement}

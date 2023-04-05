@@ -21,7 +21,10 @@ const PromotionSection = () => {
           acollaboration. No email attachments required.
         </p>
 
-        <a className='flex gap-2 items-center mt-4 lg:mt-6' tabIndex={1}>
+        <a
+          className='flex gap-2 items-center mt-4 lg:mt-6 how-fylo-button relative max-w-fit'
+          tabIndex={1}
+        >
           <span className='text-cyan text-sm font-open_sans text-left lg:text-base'>
             See how Fylo works
           </span>

@@ -2,7 +2,7 @@ import heroIllustration from '../../../assets/illustration-intro.png'
 
 const HeroSection = () => {
   return (
-    <section className='grid place-items-center w-full'>
+    <section className='grid place-items-center w-full relative curvy'>
       <img src={heroIllustration} alt='illustration intro' />
       <h1 className='text-white text-2xl font-raleway text-center font-bold mt-4 lg:text-4xl lg:leading-normal max-w-3xl lg:tracking-wide'>
         All your files in one secure location, accessible anywhere.

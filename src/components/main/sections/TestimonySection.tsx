@@ -3,9 +3,12 @@ import { TESTIMONY_BOX } from '../../../constant/constant'
 export const TestimonySection = () => {
   return (
     <section className='grid place-items-center w-full mt-44 gap-10 px-3 lg:grid-cols-auto_3 lg:place-content-center'>
-      {TESTIMONY_BOX.map((item) => (
+      {TESTIMONY_BOX.map((item, idx) => (
         <div
-          className='bg-blue_dark_testimonials px-4 py-4 rounded max-w-sm lg:px-6 lg:pt-8 lg:pb-6'
+          className={
+            'bg-blue_dark_testimonials px-4 py-4 rounded max-w-sm lg:px-6 lg:pt-8 lg:pb-6 relative' +
+            `${idx === 0 && ' quotes'}`
+          }
           key={item.id}
         >
           <p className='text-white text-xs  font-open_sans text-left mt-2 leading-5 lg:text-base'>

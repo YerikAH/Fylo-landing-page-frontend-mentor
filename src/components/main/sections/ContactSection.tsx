@@ -22,7 +22,7 @@ const ContactSection = () => {
           type='submit'
           aria-label='Get Started For Free'
           value='Get Started For Free'
-          className='text-white bg-cyan rounded-full text-xs w-full px-3.5 py-3.5 mt-4 font-raleway font-bold lg:mt-0 lg:flex-none lg:text-base max-w-[12.5rem]'
+          className='text-white bg-cyan rounded-full text-xs w-full px-3.5 py-3.5 mt-4 font-raleway font-bold lg:mt-0 lg:flex-none lg:text-base lg:max-w-[12.5rem]'
         />
       </div>
     </article>

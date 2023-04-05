@@ -6,16 +6,18 @@
 @import './main.scss';
 
 // code
-html{
-  background-color: $dark-blue-intro-bg
+html {
+  background-color: $dark-blue-intro-bg;
+  overflow-x: hidden;
 }
-section{
+section {
   max-width: 1440px;
 }
-article, section{
+article,
+section {
   margin: 0 auto;
 }
-.footer-center{
+.footer-center {
   max-width: 1228px;
   margin: 0 auto;
 }
