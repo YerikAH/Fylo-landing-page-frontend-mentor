@@ -4,7 +4,7 @@ import iconArrow from '../../../assets/icon-arrow.svg'
 
 const PromotionSection = () => {
   return (
-    <section className='grid place-items-center w-full mt-44 lg:grid-cols-auto_2'>
+    <article className='grid place-items-center w-full mt-44 lg:grid-cols-auto_2'>
       <div className='grid place-items-center w-full h-full'>
         <img src={illustrationProductive} alt='illustration stay productive' />
       </div>
@@ -22,16 +22,16 @@ const PromotionSection = () => {
         </p>
 
         <a
-          className='flex gap-2 items-center mt-4 lg:mt-6 how-fylo-button relative max-w-fit'
+          className='flex gap-2 items-center mt-4 lg:mt-6 how-fylo-button relative max-w-fit text-focus'
           tabIndex={1}
         >
-          <span className='text-cyan text-sm font-open_sans text-left lg:text-base'>
+          <span className='text-cyan text-sm font-open_sans text-left lg:text-base '>
             See how Fylo works
           </span>
           <img src={iconArrow} alt='arrow' />
         </a>
       </div>
-    </section>
+    </article>
   )
 }
 

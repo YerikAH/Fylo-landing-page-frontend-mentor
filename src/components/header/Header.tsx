@@ -8,7 +8,7 @@ const Header = () => {
         <ul className='flex justify-between items-center'>
           <div className='logo_nav'>
             <li>
-              <a href='#' tabIndex={1}>
+              <a href='#' tabIndex={1} className='text-focus'>
                 <img src={logo} alt='logo' />
               </a>
             </li>
@@ -16,7 +16,11 @@ const Header = () => {
           <div className='flex gap-6 place-items-center lg:gap-12'>
             {NAV_OPTIONS.map((item, idx) => (
               <li key={idx} className='flex'>
-                <a href='' tabIndex={1} className='text-white text-xs font-open_sans lg:text-base'>
+                <a
+                  href=''
+                  tabIndex={1}
+                  className='text-white text-xs font-open_sans lg:text-base text-focus'
+                >
                   {item}
                 </a>
               </li>

@@ -10,12 +10,11 @@ html {
   background-color: $dark-blue-intro-bg;
   overflow-x: hidden;
 }
-section {
-  max-width: 1440px;
-}
+
 article,
 section {
   margin: 0 auto;
+  max-width: 1440px;
 }
 .footer-center {
   max-width: 1228px;

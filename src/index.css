@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.text-focus:focus {
+  outline-style: dotted;
+  outline-width: medium;
+  outline-color: #65e2de78;
+}
+.input-focus:focus {
+  outline-style: solid;
+  outline-width: medium;
+  outline-color: #65e2de78;
+}
+.text-focus:hover {
+  opacity: 0.8;
+}
+.button-started:focus,
+.button-started:hover {
+  outline: none;
+  background: #65e2d9 !important;
+}

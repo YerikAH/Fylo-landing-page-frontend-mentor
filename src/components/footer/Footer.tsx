@@ -24,11 +24,15 @@ export const Footer = () => {
             </div>
           </div>
           <div className='  h-full   w-full '>
-            <a href='' className='flex gap-6 items-start pt-8 lg:pt-0' tabIndex={1}>
+            <a href='' className='flex gap-6 items-start pt-8 lg:pt-0 text-focus' tabIndex={1}>
               <img src={phone} alt='phone' />
               <span className='text-white text-sm  font-open_sans'>+1-543-123-4567</span>
             </a>
-            <a href='' className='flex gap-6 items-start pt-4 pb-20 lg:pb-0' tabIndex={1}>
+            <a
+              href=''
+              className='flex gap-6 items-start pt-4 pb-20 lg:pb-0 text-focus'
+              tabIndex={1}
+            >
               <img src={email} alt='gmail' />
               <span className='text-white text-sm  font-open_sans'>example@fylo.com</span>
             </a>
@@ -38,7 +42,7 @@ export const Footer = () => {
               <li key={idx} className='w-full py-2 lg:pt-0 lg:pb-2'>
                 <a
                   href=''
-                  className='text-white text-base  w-full font-open_sans flex'
+                  className='text-white text-base  w-full font-open_sans flex text-focus'
                   tabIndex={1}
                 >
                   {item}
@@ -51,7 +55,7 @@ export const Footer = () => {
               <li key={idx} className='w-full  py-2 lg:pt-0 lg:pb-2'>
                 <a
                   href=''
-                  className='text-white text-base  w-full font-open_sans flex'
+                  className='text-white text-base  w-full font-open_sans flex text-focus'
                   tabIndex={1}
                 >
                   {item}

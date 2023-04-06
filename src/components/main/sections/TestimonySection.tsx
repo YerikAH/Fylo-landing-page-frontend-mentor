@@ -1,8 +1,8 @@
 import { TESTIMONY_BOX } from '../../../constant/constant'
 
-export const TestimonySection = () => {
+const TestimonySection = () => {
   return (
-    <section className='grid place-items-center w-full mt-44 gap-10 px-3 lg:grid-cols-auto_3 lg:place-content-center'>
+    <article className='grid place-items-center w-full mt-44 gap-10 px-3 lg:grid-cols-auto_3 lg:place-content-center'>
       {TESTIMONY_BOX.map((item, idx) => (
         <div
           className={
@@ -27,6 +27,7 @@ export const TestimonySection = () => {
           </div>
         </div>
       ))}
-    </section>
+    </article>
   )
 }
+export default TestimonySection

@@ -15,15 +15,16 @@ const ContactSection = () => {
           aria-label='Enter your email'
           aria-required='false'
           placeholder='email@example.com'
-          className=' rounded-full bg-white w-full px-3.5 py-3.5 mt-8 text-xs font-open_sans lg:mt-0 lg:py-4 lg:px-4 lg:flex-initia lg:text-base'
+          className=' rounded-full bg-white w-full px-3.5 py-3.5 mt-8 text-xs font-open_sans lg:mt-0 lg:py-4 lg:px-4 lg:flex-initia lg:text-base input-focus'
         />
-        <input
+        <button
           tabIndex={1}
           type='submit'
           aria-label='Get Started For Free'
-          value='Get Started For Free'
-          className='text-white bg-cyan rounded-full text-xs w-full px-3.5 py-3.5 mt-4 font-raleway font-bold lg:mt-0 lg:flex-none lg:text-base lg:max-w-[12.5rem]'
-        />
+          className='text-white  text-xs w-full px-3.5 py-3.5 mt-4 font-raleway font-bold lg:mt-0 lg:flex-none lg:text-sm lg:max-w-[12.5rem] button-started'
+        >
+          Get Started For Free
+        </button>
       </div>
     </article>
   )
