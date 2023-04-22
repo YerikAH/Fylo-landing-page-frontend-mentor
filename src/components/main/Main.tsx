@@ -4,7 +4,7 @@ import InfoSection from './sections/InfoSection'
 
 const Main = () => {
   return (
-    <main className='px-6 pt-6 w-full'>
+    <main className='pt-6 w-full'>
       <HeroSection />
       <InfoSection />
     </main>

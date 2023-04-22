@@ -5,7 +5,7 @@ import TestimonySection from './TestimonySection'
 
 const InfoSection = () => {
   return (
-    <section className='max-w-none bg-blue_dark_main_bg'>
+    <section className='max-w-none bg-blue_dark_main_bg px-6'>
       <FeaturesSection />
       <PromotionSection />
       <TestimonySection />

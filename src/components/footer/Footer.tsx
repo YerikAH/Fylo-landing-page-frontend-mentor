@@ -63,13 +63,13 @@ export const Footer = () => {
               </li>
             ))}
           </ul>
-          <div className='flex gap-4 w-full place-items-center place-content-center   h-full lg:place-items-start'>
+          <ul className='flex gap-4 w-full place-items-center place-content-center   h-full lg:place-items-start'>
             {FOOTER_SOCIAL.map((item, idx) => (
               <SocialMediaIcon key={idx} url={item.url}>
                 {item.componentElement}
               </SocialMediaIcon>
             ))}
-          </div>
+          </ul>
         </div>
       </div>
     </footer>
