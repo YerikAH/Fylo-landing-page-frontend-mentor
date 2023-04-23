@@ -13,4 +13,5 @@ export default defineConfig({
     environment: 'jsdom',
     globals: true,
   },
+  base: '/Fylo-landing-page-frontend-mentor/',
 })
