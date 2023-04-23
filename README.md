@@ -5,9 +5,12 @@ This is a solution to the Fylo landing page. The challenge is from [Front-end Me
 ## Developing
 
 ### What I learned
-
+Another challenge completed after a long time, during development I learned "framer motion" and a bit about front side testing. The challenge didn't have much to do with JavaScript logic, so it served more to improve my CSS and HTML skills.
 ### Challenge consists of
 
+- View the optimal layout for the site depending on their device's screen size.
+- See hover states for all interactive elements on the page.
+    
 ### Technologies used in the project
 
 1. [React](https://es.reactjs.org/) + [TypeScript](https://www.typescriptlang.org/)
@@ -16,9 +19,10 @@ This is a solution to the Fylo landing page. The challenge is from [Front-end Me
 1. [TailwindCSS](https://tailwindcss.com/)
 1. [Vitest](https://vitest.dev/)
 1. [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+1. [Framer Motion](https://www.framer.com/motion/)
 ## Demo
 
-🖥 If you want to see the solution, [click here]().
+🖥 If you want to see the solution, [click here](https://yerikah.github.io/Fylo-landing-page-frontend-mentor/).
 <br/>
 🌎 If you want to see the solution in Frontend Mentor, [click here]().
 
