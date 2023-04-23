@@ -1,8 +1,15 @@
+import { motion } from 'framer-motion'
 import { TESTIMONY_BOX } from '../../../constant/constant'
 
 const TestimonySection = () => {
   return (
-    <article className='grid place-items-center w-full mt-44 gap-10 px-3 lg:grid-cols-auto_3 lg:place-content-center'>
+    <motion.article
+      className='grid place-items-center w-full mt-44 gap-10 px-3 lg:grid-cols-auto_3 lg:place-content-center relative'
+      initial={{ left: '-3rem', opacity: 0 }}
+      whileInView={{ left: '0', opacity: 1 }}
+      transition={{ duration: 2 }}
+      viewport={{ once: true }}
+    >
       {TESTIMONY_BOX.map((item, idx) => (
         <div
           className={
@@ -27,7 +34,7 @@ const TestimonySection = () => {
           </div>
         </div>
       ))}
-    </article>
+    </motion.article>
   )
 }
 export default TestimonySection

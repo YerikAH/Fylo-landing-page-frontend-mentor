@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { FORM_ERROR_EMAIL, FORM_ERROR_LITTLE, FORM_ERROR_VOID } from '../../../constant/constant'
+import { motion } from 'framer-motion'
 
 const ContactSection = () => {
   const [inputEmail, setInputEmail] = useState('')
@@ -34,14 +35,32 @@ const ContactSection = () => {
   }
   return (
     <article className='grid place-items-center w-full bg-blue_dark_testimonials py-10 px-5 lg:py-16 rounded-md relative top-48 max-w-4xl'>
-      <h3 className='text-white text-base font-bold font-raleway text-center lg:text-3xl'>
+      <motion.h3
+        className='text-white text-base font-bold font-raleway text-center lg:text-3xl relative'
+        initial={{ bottom: '-1rem' }}
+        whileInView={{ bottom: '0' }}
+        transition={{ duration: 0.5 }}
+        viewport={{ once: true }}
+      >
         Get early access today
-      </h3>
-      <p className='text-white text-sm  font-open_sans text-center mt-4 lg:text-base max-w-3xl'>
+      </motion.h3>
+      <motion.p
+        className='text-white text-sm  font-open_sans text-center mt-4 lg:text-base max-w-3xl relative'
+        initial={{ bottom: '-1rem' }}
+        whileInView={{ bottom: '0' }}
+        transition={{ duration: 0.6 }}
+        viewport={{ once: true }}
+      >
         It only takes a minute to sign up and our free starter tier is extremely generous. If you
         have any questions, our support team would be happy to help you.
-      </p>
-      <form className='grid w-full lg:flex lg:mt-10 lg:gap-8 lg:max-w-3xl relative'>
+      </motion.p>
+      <motion.form
+        className='grid w-full lg:flex lg:mt-10 lg:gap-8 lg:max-w-3xl relative'
+        initial={{ bottom: '-1rem' }}
+        whileInView={{ bottom: '0' }}
+        transition={{ duration: 0.7 }}
+        viewport={{ once: true }}
+      >
         <input
           tabIndex={1}
           type='email'
@@ -68,7 +87,7 @@ const ContactSection = () => {
         >
           Get Started For Free
         </button>
-      </form>
+      </motion.form>
     </article>
   )
 }
