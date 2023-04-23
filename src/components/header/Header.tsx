@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion'
 import logo from '../../assets/logo.svg'
 import { NAV_OPTIONS } from '../../constant/constant'
 
@@ -7,15 +8,26 @@ const Header = () => {
       <nav className='px-4 py-6 w-full lg:px-16 lg:py-20'>
         <ul className='flex justify-between items-center'>
           <div className='logo_nav'>
-            <li>
+            <motion.li
+              className='relative'
+              initial={{ opacity: 0, top: '-1rem' }}
+              animate={{ opacity: 1, top: '0' }}
+              transition={{ duration: 2 }}
+            >
               <a href='#' tabIndex={1} className='text-focus'>
                 <img src={logo} alt='logo' />
               </a>
-            </li>
+            </motion.li>
           </div>
           <div className='flex gap-6 place-items-center lg:gap-12'>
             {NAV_OPTIONS.map((item, idx) => (
-              <li key={idx} className='flex'>
+              <motion.li
+                key={idx}
+                className='flex relative'
+                initial={{ opacity: 0, top: '-1rem' }}
+                animate={{ opacity: 1, top: '0' }}
+                transition={{ duration: 2 }}
+              >
                 <a
                   href=''
                   tabIndex={1}
@@ -23,7 +35,7 @@ const Header = () => {
                 >
                   {item}
                 </a>
-              </li>
+              </motion.li>
             ))}
           </div>
         </ul>
