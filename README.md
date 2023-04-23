@@ -24,7 +24,7 @@ Another challenge completed after a long time, during development I learned "fra
 
 🖥 If you want to see the solution, [click here](https://yerikah.github.io/Fylo-landing-page-frontend-mentor/).
 <br/>
-🌎 If you want to see the solution in Frontend Mentor, [click here]().
+🌎 If you want to see the solution in Frontend Mentor, [click here](https://www.frontendmentor.io/solutions/fylo-landing-page-developed-with-react-FTX-rBP-g6).
 
 ### Screenshots
 
